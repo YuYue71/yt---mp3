@@ -54,6 +54,23 @@ def download_youtube_as_mp3(url):
 
 if __name__ == "__main__":
     print("歡迎使用 YouTube 轉 MP3 下載器")
-    print("-# \"幽月YuYue\" 保有所有權利")
+    print('''
+        +==============================================+
+        |             安安大來路不明的朋友             |
+        |      謝謝你願意下載並使用 YuYue 的小工具     |
+        |                     說明 :                   |
+        |         這是個用來將YT連結轉mp3的小工具      |
+        |         由於作者本人還只是一個Code小白       |
+        |             所以有不足之處還請見諒           |
+        |        如果有任何問題或建議，歡迎聯繫我！    |
+        +==============================================+
+
+                        YuYue Encryption               
+                        版本 : 1.0.1                   
+                        作者 : YuYue                   
+
+                    幽月YuYue保有所有權利
+                        2026/01/09
+          ''')
     video_url = input("請輸入 YouTube 網址: ")
     download_youtube_as_mp3(video_url)
